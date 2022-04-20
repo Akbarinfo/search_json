@@ -11,25 +11,36 @@
 
 <body>
 
-  <!-- HEADER PART -->
-
-  <header class="">
-    <section class="">
-
-    </section>
-  </header>
 
   <!-- MAIN PART  -->
 
   <main>
+    <section class="search">
+      <div class="container">
+        <div class="search__box">
+          <label class="search__label" for="id">
+            Id Search
+            <input class="search__input" type="number" id="id"
+            placeholder="Id search">
+          </label>
+          <label class="search__label" for="email">
 
+            Email Search
+            <input class="search__input" type="email" id="email" placeholder="Email search">
+          </label>
+          <label class="search__label" for="name">
+
+            Name Search
+            <input class="search__input" type="text" id="name" placeholder="Name Search">
+          </label>
+        </div>
+
+        <ul class="search__list" id="listbox">
+        </ul>
+      </div>
+    </section>
   </main>
 
-  <!-- FOOTER PART  -->
-
-  <footer class="footer">
-
-  </footer>
 
   <script src="js/main.js"></script>
 </body>
